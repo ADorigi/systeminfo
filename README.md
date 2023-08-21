@@ -1,0 +1,2 @@
+# systeminfo
+systeminfo in go
