@@ -67,7 +67,7 @@ func GetLocalIPv4() string {
 }
 
 func GetGlobalIP() string {
-	resp, err := http.Get("https://api64.ipify.org?format=text")
+	resp, err := http.Get("https://api.ipify.org?format=text")
 	if err != nil {
 		fmt.Println("GetGlobalIPv4 - Error in fetching public IP -- ", err)
 	}
